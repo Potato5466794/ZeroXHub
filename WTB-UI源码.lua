@@ -109,7 +109,7 @@ ImageButton.BackgroundColor3 = _G.Dark;
 ImageButton.ImageColor3 = _G.White;
 ImageButton.ImageTransparency = 0;
 ImageButton.BackgroundTransparency = 0;
-ImageButton.Image = "https://raw.githubusercontent.com/Potato5466794/ZeroXHub/refs/heads/main/IMG_20260103_062921.png";
+ImageButton.Image = "rbxassetid://4483362748";
 ImageButton.AutoButtonColor = false;
 MakeDraggable(ImageButton, OutlineButton);
 CreateRounded(ImageButton, 8);
@@ -180,7 +180,7 @@ function Update:Notify(desc)
 	Image.BackgroundTransparency = 1;
 	Image.Position = UDim2.new(0, 8, 0, 8);
 	Image.Size = UDim2.new(0, 45, 0, 45);
-	Image.Image = "https://raw.githubusercontent.com/Potato5466794/ZeroXHub/refs/heads/main/IMG_20260103_062921.pn";
+	Image.Image = "rbxassetid://4483362748";
 	
 	Title.Parent = Frame;
 	Title.BackgroundColor3 = _G.Primary;
